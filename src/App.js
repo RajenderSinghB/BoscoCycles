@@ -1,25 +1,23 @@
+import React from 'react';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 
+import Header from './components/Header';
+import Home from './screens/Home';
+import ServiceScreen from './screens/ServiceScreen';
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className='App' data-spy='scroll' data-target='.navbar'>
+            <BrowserRouter>
+                <Switch>
+                    <Route path='/' exact component={Home} />
+                    <Route path='/book' exact component={ServiceScreen} />
+                </Switch>
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;
