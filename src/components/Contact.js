@@ -73,11 +73,13 @@ function Contact() {
                                     id='colFormLabelSm'
                                 />
                                 <button
-                                    className='btn btn-danger my-5  px-4'
+                                    className='btn  my-5  px-4'
                                     style={{
                                         borderRadius: '25px',
                                         fontWeight: '700',
                                         fontSize: '1.25rem',
+                                        background: 'rgb(234, 13, 41)',
+                                        color: 'white',
                                     }}
                                     type='submit'
                                     disabled={!formik.isValid}>

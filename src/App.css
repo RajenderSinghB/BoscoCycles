@@ -244,7 +244,11 @@ input:focus {
     font-weight: 600;
     text-transform: uppercase;
 }
-
+.detp {
+    font-style: italic;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
 .mainText {
     font-size: 1.5625rem;
     font-weight: 600;
@@ -390,10 +394,7 @@ input:focus {
     width: 100vw;
     height: 100vh;
 }
-/* .carousel-control-next,
-.carousel-control-prev {
-    height: 90vh;
-} */
+
 .carousel-control-next-icon {
     background-image: url('./images/right.png');
 }

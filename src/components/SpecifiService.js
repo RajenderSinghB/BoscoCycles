@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function SpecifiService() {
     return (
@@ -27,15 +28,22 @@ function SpecifiService() {
                                 }}>
                                 BRAKE BLEEDING
                             </p>
-                            <p
+                            <Link
+                                to='/brakebleeding'
                                 style={{
-                                    fontSize: '1rem',
-                                    fontWeight: '600',
-                                    color: 'blue',
-                                    lineHeight: 0,
+                                    textDecoration: 'none',
+                                    color: 'black',
                                 }}>
-                                READ MORE
-                            </p>
+                                <p
+                                    style={{
+                                        fontSize: '1rem',
+                                        fontWeight: '600',
+                                        color: 'blue',
+                                        lineHeight: 0,
+                                    }}>
+                                    READ MORE
+                                </p>
+                            </Link>
                         </div>
                     </div>
                 </div>

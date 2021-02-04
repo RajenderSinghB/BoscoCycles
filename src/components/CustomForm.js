@@ -447,8 +447,9 @@ function CustomForm() {
                                         <h6
                                             className='my-5 '
                                             style={{ fontStyle: 'italic' }}>
-                                            Our executive will call you and
-                                            schedule time of your convienence.
+                                            On submitting the form, our
+                                            executive will call you to discuss
+                                            further details
                                         </h6>
 
                                         <button

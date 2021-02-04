@@ -6,6 +6,7 @@ import './App.css';
 import Header from './components/Header';
 import Home from './screens/Home';
 import ServiceScreen from './screens/ServiceScreen';
+import BrakeBleeding from './screens/BrakeBleeding';
 
 function App() {
     return (
@@ -14,6 +15,11 @@ function App() {
                 <Switch>
                     <Route path='/' exact component={Home} />
                     <Route path='/book' exact component={ServiceScreen} />
+                    <Route
+                        path='/brakebleeding'
+                        exact
+                        component={BrakeBleeding}
+                    />
                 </Switch>
             </BrowserRouter>
         </div>

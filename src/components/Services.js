@@ -90,7 +90,7 @@ function Services() {
                                         className='book m-0'
                                         style={{
                                             fontWeight: '600',
-                                            fontSize: '2rem',
+                                            fontSize: '1.5rem',
                                             fontFamily: 'Poppins, sans-serif',
                                         }}>
                                         BOOK SERVICE
@@ -161,15 +161,22 @@ function Services() {
 '
                             />
                             <div className='footer'>
-                                <h1
-                                    className='book m-0'
+                                <Link
+                                    to='/book'
                                     style={{
-                                        fontWeight: '600',
-                                        fontSize: '2rem',
-                                        fontFamily: 'Poppins, sans-serif',
+                                        textDecoration: 'none',
+                                        color: 'white',
                                     }}>
-                                    BOOK SERVICE
-                                </h1>
+                                    <h1
+                                        className='book m-0'
+                                        style={{
+                                            fontWeight: '600',
+                                            fontSize: '1.5rem',
+                                            fontFamily: 'Poppins, sans-serif',
+                                        }}>
+                                        BOOK SERVICE
+                                    </h1>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -250,15 +257,22 @@ and cleaned
                                 <Points point=' Anti- seize grease will be applied. ' />
                             </div>
                             <div className='footer'>
-                                <h1
-                                    className='book m-0'
+                                <Link
+                                    to='/book'
                                     style={{
-                                        fontWeight: '600',
-                                        fontSize: '2rem',
-                                        fontFamily: 'Poppins, sans-serif',
+                                        textDecoration: 'none',
+                                        color: 'white',
                                     }}>
-                                    BOOK SERVICE
-                                </h1>
+                                    <h1
+                                        className='book m-0'
+                                        style={{
+                                            fontWeight: '600',
+                                            fontSize: '1.5rem',
+                                            fontFamily: 'Poppins, sans-serif',
+                                        }}>
+                                        BOOK SERVICE
+                                    </h1>
+                                </Link>
                             </div>
                         </div>
                     </div>
