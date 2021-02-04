@@ -116,6 +116,21 @@ function Contact() {
                         <div class='carousel-item'>
                             <div class='bg bg7'></div>
                         </div>
+                        <div class='carousel-item'>
+                            <div class='bg bg8'></div>
+                        </div>
+                        <div class='carousel-item'>
+                            <div class='bg bg9'></div>
+                        </div>
+                        <div class='carousel-item'>
+                            <div class='bg bg10'></div>
+                        </div>
+                        <div class='carousel-item'>
+                            <div class='bg bg11'></div>
+                        </div>
+                        <div class='carousel-item'>
+                            <div class='bg bg12'></div>
+                        </div>
                     </div>
                     <a
                         class='carousel-control-prev'

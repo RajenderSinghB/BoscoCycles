@@ -339,27 +339,47 @@ input:focus {
     border-radius: 15px;
 }
 .bg2 {
-    background-image: url('./images/bnf/20200922_193831.jpg');
+    background-image: url('./images/bnf/2.jpg');
     border-radius: 15px;
 }
 .bg3 {
-    background-image: url('./images/bnf/photogrid.collagemaker.photocollage.squarefit_20201229205457645.png');
+    background-image: url('./images/bnf/3.png');
     border-radius: 15px;
 }
 .bg4 {
-    background-image: url('./images/bnf/photogrid.collagemaker.photocollage.squarefit_202115191131807.png');
+    background-image: url('./images/bnf/4.png');
     border-radius: 15px;
 }
 .bg5 {
-    background-image: url('./images/bnf/photogrid.collagemaker.photocollage.squarefit_202115191521771.png');
+    background-image: url('./images/bnf/5.png');
     border-radius: 15px;
 }
 .bg6 {
-    background-image: url('./images/bnf/photogrid.collagemaker.photocollage.squarefit_202115192338688.png');
+    background-image: url('./images/bnf/6.png');
     border-radius: 15px;
 }
 .bg7 {
-    background-image: url('./images/bnf/photogrid.collagemaker.photocollage.squarefit_20211519254458.png');
+    background-image: url('./images/bnf/7.png');
+    border-radius: 15px;
+}
+.bg8 {
+    background-image: url('./images/bnf/8.png');
+    border-radius: 15px;
+}
+.bg9 {
+    background-image: url('./images/bnf/9.png');
+    border-radius: 15px;
+}
+.bg10 {
+    background-image: url('./images/bnf/10.png');
+    border-radius: 15px;
+}
+.bg11 {
+    background-image: url('./images/bnf/11.png');
+    border-radius: 15px;
+}
+.bg12 {
+    background-image: url('./images/bnf/12.png');
     border-radius: 15px;
 }
 .video-js {
